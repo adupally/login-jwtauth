@@ -1,0 +1,116 @@
+.navbar {
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard{
+    margin-top: 200px;
+    text-align: center;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    width: auto; 
+}
+
+.btn-login {
+    background-color: #28a745; 
+}
+
+.btn-signup {
+    background-color: #909090; 
+    margin-left: 10px; 
+}
+.name{
+    margin-right: 10px;
+}
+
+.btn-logout {
+    background-color: #dc3545; 
+}
+
+
+form {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+}
+
+form h2{
+    margin-left: 660px;
+    margin-top: 70px;
+}
+
+
+.form-container {
+    margin-top: 10px;
+    margin-left: 350px;
+    width: 50%;
+    background-color: white; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px; 
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    width: 40%;
+    border: 1px solid #909090;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.email.error,
+.password.error {
+    color: red;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+
+
+label {
+    font-weight: bold;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assesment</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/">JWT Auth</a>
+    <ul>
+        <% if(user) { %>
+        <li><a href="/logout" class="btn btn-logout">Log out</a></li>
+        <% } else {%>
+            <li class="btn btn-login"><a href="/login" >Login</a></li>
+        <li class="btn btn-signup"><a href="/signup"  >Signup</a></li>
+        <%} %>
+    </ul>
+</nav>
